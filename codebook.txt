@@ -1,0 +1,273 @@
+Code book of all variables in the columns of the tidy data set 
+——————————————————————————————————————————————————————————————
+
+"Subject"
+	Number assigned to each subject.  Integer 1-30. 
+
+"Activity" 
+	Assigned to each subject for each activity they tested.  Factor with 6 levels with the following labels. 
+	1 WALKING
+	2 WALKING_UPSTAIRS
+	3 WALKING_DOWNSTAIRS
+	4 SITTING
+	5 STANDING
+	6 LAYING
+
+"tBodyAccmeanX"
+	The mean in the X direction of the time domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"tBodyAccmeanY"
+	The mean in the Y direction of the time domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"tBodyAccmeanZ"
+	The mean in the Z direction of the time domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"tBodyAccstdX"
+	The standard deviation in the X direction of the time domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"tBodyAccstdY"
+	The standard deviation in the Y direction of the time domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"tBodyAccstdZ"
+	The standard deviation in the Z direction of the time domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"tGravityAccmeanX"
+	The mean in the X direction of the time domain signals of gravity acceleration signal from the accelerometer.  Type is number. 
+
+"tGravityAccmeanY"
+	The mean in the Y direction of the time domain signals of gravity acceleration 
+signal from the accelerometer.  Type is number.
+
+"tGravityAccmeanZ"
+	The mean in the Z direction of the time domain signals of gravity acceleration signal from the accelerometer.  Type is number.
+
+"tGravityAccstdX"
+	The standard deviation in the X direction of the time domain signals of gravity acceleration signal from the accelerometer.  Type is number.
+
+"tGravityAccstdY"
+	The standard deviation in the Y direction of the time domain signals of gravity acceleration signal from the accelerometer.  Type is number.
+
+"tGravityAccstdZ"
+	The standard deviation in the Z direction of the time domain signals of gravity acceleration signal from the accelerometer.  Type is number.
+
+"tBodyAccJerkmeanX"
+	The mean in the X direction of the time domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyAccJerkmeanY"
+	The mean in the Y direction of the time domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyAccJerkmeanZ"
+	The mean in the Z direction of the time domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyAccJerkstdX"
+	The standard deviation in the X direction of the time domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyAccJerkstdY"
+	The standard deviation in the Y direction of the time domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyAccJerkstdZ"
+	The standard deviation in the Z direction of the time domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyGyromeanX"
+	The mean in the X direction of the time domain signals of body acceleration signal from the gyroscope. Type is number.
+
+"tBodyGyromeanY"
+	The mean in the Y direction of the time domain signals of body acceleration signal from the gyroscope. Type is number.
+
+"tBodyGyromeanZ"
+	The mean in the Z direction of the time domain signals of body acceleration signal from the gyroscope. Type is number.
+
+"tBodyGyrostdX"
+	The standard deviation in the X direction of the time domain signals of body acceleration signal from the gyroscope. Type is number.
+
+"tBodyGyrostdY"
+	The standard deviation in the Y direction of the time domain signals of body acceleration signal from the gyroscope. Type is number.
+
+"tBodyGyrostdZ"
+	The standard deviation in the Z direction of the time domain signals of body acceleration signal from the gyroscope. Type is number.
+
+"tBodyGyroJerkmeanX"
+	The mean in the X direction of the time domain signals of body acceleration signal from the gyroscope.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyGyroJerkmeanY"
+	The mean in the Y direction of the time domain signals of body acceleration signal from the gyroscope.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyGyroJerkmeanZ"
+	The mean in the Z direction of the time domain signals of body acceleration signal from the gyroscope.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyGyroJerkstdX"
+	The standard deviation in the X direction of the time domain signals of body acceleration signal from the gyroscope.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyGyroJerkstdY"
+	The standard deviation in the Y direction of the time domain signals of body acceleration signal from the gyroscope.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyGyroJerkstdZ"
+	The standard deviation in the Z direction of the time domain signals of body acceleration signal from the gyroscope.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyAccMagmean"
+	The mean of the magnitude of the 3-D signals calculated using the Euclidean norm. These are time domain signals of body acceleration signal from the accelerometer. Type is number.
+
+"tBodyAccMagstd"
+	The standard deviation of the magnitude of the 3-D signals calculated using the Euclidean norm. These are time domain signals of body acceleration signal from the accelerometer.   Type is number.
+
+"tGravityAccMagmean"
+	The mean of the magnitude of the 3-D signals calculated using the Euclidean norm. These are time domain signals of gravity acceleration signal from the accelerometer.  Type is number.
+
+"tGravityAccMagstd"
+	The standard deviation of the magnitude of the 3-D signals calculated using the Euclidean norm. These are time domain signals of gravity acceleration signal from the accelerometer.  Type is number.
+
+"tBodyAccJerkMagmean"
+	The mean of the magnitude of the 3-D signals calculated using the Euclidean norm. These are time domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyAccJerkMagstd"
+	The standard deviation of the magnitude of the 3-D signals calculated using the Euclidean norm. These are time domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyGyroMagmean"
+	The mean of the magnitude of the 3-D signals calculated using the Euclidean norm. These are time domain signals of body acceleration signal from the gyroscope. Type is number.
+
+"tBodyGyroMagstd"
+	The standard deviation of the magnitude of the 3-D signals calculated using the Euclidean norm. These are time domain signals of body acceleration signal from the gyroscope.  Type is number.
+
+"tBodyGyroJerkMagmean"
+	The mean of the magnitude of the 3-D signals calculated using the Euclidean norm. These are time domain signals of body acceleration signal from the gyroscope.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"tBodyGyroJerkMagstd"
+	The standard deviation of the magnitude of the 3-D signals calculated using the Euclidean norm. These are time domain signals of body acceleration signal from the gyroscope.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"fBodyAccmeanX"
+	The mean in the X direction of the frequency domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"fBodyAccmeanY"
+	The mean in the Y direction of the frequency domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"fBodyAccmeanZ"
+	The mean in the Z direction of the frequency domain signals of body acceleration 
+signal from the accelerometer.  Type is number. 
+
+"fBodyAccstdX"
+	The standard deviation in the X direction of the frequency domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"fBodyAccstdY"
+	The standard deviation in the Y direction of the frequency domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"fBodyAccstdZ"
+	The standard deviation in the Z direction of the frequency domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"fBodyAccmeanFreqX"
+	The mean frequency in the X direction of the frequency domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"fBodyAccmeanFreqY"
+	The mean frequency in the Y direction of the frequency domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"fBodyAccmeanFreqZ"
+	The mean frequency in the Z direction of the frequency domain signals of body acceleration signal from the accelerometer.  Type is number. 
+
+"fBodyAccJerkmeanX"
+	The mean in the X direction of the frequency domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number. 
+
+"fBodyAccJerkmeanY"
+	The mean in the Y direction of the frequency domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number. 
+
+"fBodyAccJerkmeanZ"
+	The mean in the Z direction of the frequency domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number. 
+
+"fBodyAccJerkstdX"
+	The standard deviation in the X direction of the frequency domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number. 
+
+"fBodyAccJerkstdY"
+	The standard deviation in the Y direction of the frequency domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number. 
+
+"fBodyAccJerkstdZ"
+	The standard deviation in the Z direction of the frequency domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number. 
+
+"fBodyAccJerkmeanFreqX"
+	The mean frequency in the X direction of the frequency domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number. 
+"fBodyAccJerkmeanFreqY"
+	The mean frequency in the Y direction of the frequency domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number. 
+"fBodyAccJerkmeanFreqZ" 
+	The mean frequency in the Z direction of the frequency domain signals of body acceleration signal from the accelerometer.  The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number. 
+	
+"fBodyGyromeanX"
+	The mean in the X direction of the frequency domain signals of body acceleration signal from the gyroscope.  Type is number. 
+
+"fBodyGyromeanY"
+	The mean in the Y direction of the frequency domain signals of body acceleration signal from the gyroscope.  Type is number. 
+
+"fBodyGyromeanZ"
+	The mean in the Z direction of the frequency domain signals of body acceleration signal from the gyroscope.  Type is number. 
+
+"fBodyGyrostdX"
+	The standard deviation in the X direction of the frequency domain signals of body acceleration signal from the gyroscope.  Type is number. 
+
+"fBodyGyrostdY"
+	The standard deviation in the Y direction of the frequency domain signals of body acceleration signal from the gyroscope.  Type is number. 
+
+"fBodyGyrostdZ"
+	The standard deviation in the Z direction of the frequency domain signals of body acceleration signal from the gyroscope.  Type is number. 
+
+"fBodyGyromeanFreqX"
+	The mean frequency in the X direction of the frequency domain signals of body acceleration signal from the gyroscope. Type is number. 
+
+"fBodyGyromeanFreqY"
+	The mean frequency in the Y direction of the frequency domain signals of body acceleration signal from the gyroscope. Type is number. 
+
+"fBodyGyromeanFreqZ"
+	The mean frequency in the Z direction of the frequency domain signals of body acceleration signal from the gyroscope. Type is number. 
+
+"fBodyAccMagmean"
+	The mean of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the accelerometer.   Type is number.
+
+"fBodyAccMagstd"
+	The standard deviation of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the accelerometer.   Type is number.
+
+"fBodyAccMagmeanFreq"
+	The mean frequency of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the accelerometer.   Type is number.
+
+"fBodyBodyAccJerkMagmean"
+	The mean of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the accelerometer.   The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"fBodyBodyAccJerkMagstd"
+	The standard deviation of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the accelerometer.   The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"fBodyBodyAccJerkMagmeanFreq"
+	The mean frequency of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the accelerometer.   The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.
+
+"fBodyBodyGyroMagmean"
+	The mean of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the gyroscope.   Type is number.
+
+"fBodyBodyGyroMagstd"
+	The standard deviation of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the gyroscope.   Type is number.
+
+"fBodyBodyGyroMagmeanFreq"
+	The mean frequency of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the gyroscope.   Type is number.
+
+"fBodyBodyGyroJerkMagmean"
+	The mean of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the gyroscope. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Type is number.
+
+"fBodyBodyGyroJerkMagstd"
+	The standard deviation of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the gyroscope. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Type is number.
+
+"fBodyBodyGyroJerkMagmeanFreq"
+	The mean frequency of the magnitude of the 3-D signals calculated using the Euclidean norm. These are frequency domain signals of body acceleration signal from the gyroscope. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Type is number.
+
+
+"angletBodyAccMeangravity"
+	Averaging of the signals in a signal window sample in the X direction of the gravity acceleration signals. These are time domain signals of body acceleration signal from the accelerometer. Type is number.	
+
+"angletBodyAccJerkMeangravityMean"
+	Averaging of the signals in a signal window sample in the X direction of the gravity acceleration signals. These are time domain signals of body acceleration signal from the accelerometer. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.	
+
+"angletBodyGyroMeangravityMean"
+	Averaging of the signals in a signal window sample in the X direction of the gravity acceleration signals. These are time domain signals of body acceleration signal from the gyroscope. Type is number.	
+
+"angletBodyGyroJerkMeangravityMean"
+	Averaging of the signals in a signal window sample in the X direction of the gravity acceleration signals. These are time domain signals of body acceleration signal from the gyroscope. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.  Type is number.	
+
+"angleXgravityMean"
+	Averaging of the signals in a signal window sample in the X direction of the gravity acceleration signals. Type is number.	
+
+"angleYgravityMean"
+	Averaging of the signals in a signal window sample in the Y direction of the gravity acceleration signals. Type is number.
+
+"angleZgravityMean”
+	Averaging of the signals in a signal window sample in the Z direction of the gravity acceleration signals. Type is number 
